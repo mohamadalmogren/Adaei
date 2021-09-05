@@ -1,0 +1,400 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(230, 230, 230);
+}
+
+.big-container{
+  overflow: hidden;
+}
+.right-page{
+  float: right;
+  width: 13%;
+}
+.left-page{
+    float: left;
+    width: 87%;
+}
+/* القالب */
+.bg-cont{
+  background-color:#d2d4da;
+}
+.container{
+  width: 70%;
+  margin: 20px auto;
+  /* background-color:#6a87df; */
+  overflow: hidden;
+  text-align: center;
+  border-radius: 3px;
+  
+}
+
+/* الصندوق داخل القالب */
+.box{
+  background-color: #f8f9fce5;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: right;
+  overflow: hidden;
+}
+
+/* السايد بار */
+#sidebar {
+  position: fixed;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  background-color: rgb(78, 115, 223);
+}
+
+#sidebar header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background-color: rgb(78, 115, 223);
+}
+
+#sidebar header a{
+  text-decoration: none;
+  color: white;
+}
+#sidebar ul a{
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+  padding-right: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  transition: .4s;
+}
+#sidebar ul a:hover{
+  padding-right: 50px;
+  background-color: rgb(41, 64, 131);
+}
+#sidebar li{
+  list-style: none;
+}
+
+/* فوتر */
+.footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  bottom:0;
+  width: 100%; 
+}
+
+/* قسم تسجيل الدخول و التسجيل */
+.account{
+  background-color: #a0b1b3;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mid{
+  margin-top: 10% ;
+}
+
+.left-account{
+  float: left;
+  width: 60%;
+  padding: 5px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.left-account p{
+  padding: 10px;
+}
+.right-account{
+  float: right;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+}
+.admin-container{
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgb(54, 136, 136);
+  overflow: hidden;
+  text-align: center;
+  border-radius: 4px;
+  width: 47%;
+}
+.admin{
+  margin: 0 auto;
+  text-align: center;
+}
+.login-admin{
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input-fild{
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.438);
+  outline: none;
+  border: 0px;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  width: 90%;
+  text-align: right;
+}
+select{
+  text-align-last:center;
+}
+
+.msg{
+  padding-top: 4px;
+  font-size: 14px;
+}
+.msg a{
+  font-size: large;
+  text-decoration: none;
+  font-size: 19px;
+} .msg a:hover{
+  color: rgb(16, 33, 80);
+}
+.a-btn{
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 45px;
+  margin: 10px 0px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+  background-color:#4E73DF;
+}.a-btn:hover{
+  background-color:#4160bb;
+}
+
+.btn{
+  font-size: 16px;
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #4E73DF;
+  color: white;
+}.btn:hover{
+  background-color:#4160bb;
+}
+
+
+/* قسم صفحة المهمام + التقيم */
+.right{
+  float: right;
+}
+.task{
+  overflow: hidden;
+  font-size: 20px;
+}
+.right-task{
+  float: right;
+  width: 75%;
+}
+.left-task{
+  text-align: center;
+  float: left;
+  width: 25%;
+}
+.left-task .btn{
+  width: 100%;
+}
+
+/* M_evaluation قسم صفحة تقيم المهام الخاصه في المدير */
+.evalution{
+  border: #333 solid 2px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.evalution .input-fild{
+  width: 50%;
+  float: right;
+}
+
+.evalution label{
+  font-size: 20px;
+  text-align: right;
+
+}
+.eva-btn{
+  background-color:rgba(80, 80, 80, 0.548);
+  margin-top: 10px;
+  width: 35%;
+  
+
+}
+
+/* add page */
+.add{
+  /* border: #5f7a7e solid 2px; */
+  background-color: #dadce0e5;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.add p{
+  text-align: right;
+  margin-right: 27px;
+}
+.add-contianer{
+  width: 40%;
+  margin-top: 5%;
+  padding: 7px;
+}
+.time{
+  width: 45%;
+  text-align: right;
+  margin:0 3px;
+}
+textarea{
+  height: 150px;
+}
+
+.M_task{
+background-color: #949596;
+margin-top: 15px ;
+width: 100px;
+}
+/* login error  */
+.error{ 
+  width: 80%;  
+  margin: 10px auto;  
+  padding: 10px;  
+  border: 1px solid #a94442;  
+  color: #a94442;  
+  background: #f2dede;  
+  border-radius: 5px;  
+  text-align: center; 
+}
+.succeed{ 
+  width: 50%;  
+  margin: 10px auto;  
+  padding: 10px;  
+  border: 1px solid rgb(51, 128, 51);  
+  color: black; 
+  background: rgb(151, 204, 151);  
+  border-radius: 5px;  
+  text-align: center; 
+}
+
+.blue-blood{
+  color: #4E73DF;
+}
+.h {
+  color: #4E73DF;
+  text-align: right;
+  padding-top:10px ;
+  padding-right: 10px;
+}
+/* leaderboard */
+main{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+  background-color: white;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 70%;
+  height: 200px;
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+
+}
+tr{ 
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+th, td{
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+}
+#header-tr{
+  background-color:#6a87df;
+  color: #fff;
+
+}
+.colorT{
+  font-weight: 600;
+  text-align: center;
+  background-color:#6a87df;
+  color: #fff;
+  padding: 10px 0px;
+}
+tr:hover{
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+}
+
+/* about */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:#2847a5;
+  color: white;
+}
+.container1 {
+  padding: 0 16px;
+  text-align: right;
+}
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table; 
+}
+.title {
+  color: grey;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.width{
+    width: 98%;
+}
